@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="content">
+            <div id="head">
+
+            </div>
+            <!-- end of head -->
+            <div id="display">
+                &nbsp;
+            </div>
+            <!-- end of display -->
+            <div id="keypad">
+                <div class="row">
+                    <button class="btn" id="btn1" onclick="runCalc('C')">C</button>
+                    <button class="btn" id="btn2" onclick="runCalc('%')">%</button>
+                    <button class="btn" id="btn3" onclick="runCalc('AC')">AC</button>
+                    <button class="btn" id="btn4" onclick="runCalc('/')">/</button>
+                </div>
+                <!-- end of row 1 -->
+                <div class="row">
+                    <button class="btn" id="btn5" onclick="runCalc(7)">7</button>
+                    <button class="btn" id="btn6" onclick="runCalc(8)">8</button>
+                    <button class="btn" id="btn7" onclick="runCalc(9)">9</button>
+                    <button class="btn" id="btn8" onclick="runCalc('X')">X</button>
+                </div>
+                <!-- end of row 2 -->
+                <div class="row">
+                    <button class="btn" id="btn9" onclick="runCalc(4)">4</button>
+                    <button class="btn" id="btn10" onclick="runCalc(5)">5</button>
+                    <button class="btn" id="btn11" onclick="runCalc(6)">6</button>
+                    <button class="btn" id="btn12" onclick="runCalc('-')">-</button>
+                </div>
+                <!-- end of row 3 -->
+                <div class="row">
+                    <button class="btn" id="btn13" onclick="runCalc(1)">1</button>
+                    <button class="btn" id="btn14" onclick="runCalc(2)">2</button>
+                    <button class="btn" id="btn15" onclick="runCalc(3)">3</button>
+                    <button class="btn" id="btn16" onclick="runCalc('+')">+</button>
+                </div>
+                <!-- end of row 4 -->
+                <div class="row">
+                    <button class="btn" id="btn17" onclick="runCalc(00)">00</button>
+                    <button class="btn" id="btn18" onclick="runCalc(0)">0</button>
+                    <button class="btn" id="btn19" onclick="runCalc('.')">.</button>
+                    <button class="btn" id="btn20" onclick="runCalc('=')">=</button>
+                </div>
+                <!-- end of row 5 -->
+            </div>
+            <!-- end of keypad -->
+        </div>
+        <!-- end of head -->
+    </div>
+    <!-- end of wrapper -->
+
+    <script src="script.js"></script>
+</body>
+</html>
