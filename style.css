@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+
+#content{
+    width: 40%;
+    border: 1px solid black;
+    /* margin: auto; */
+    margin: 2% auto;
+    /* padding: 1%; */
+    background-color: rgb(19, 20, 20);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#head{
+    padding: 1%;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#display{
+    text-align: right;
+    padding: 5% 2% 1% 0;
+    background-color: rgb(54, 54, 54);
+    font-size: 3em;
+    color: azure;
+}
+
+.row{
+    width:100%;
+    padding: 1%;
+}
+.btn{
+    width: 24%;
+    font-size: 2em;
+}
